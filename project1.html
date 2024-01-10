@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+      
+        .layout{
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 33.3vw;
+           height: 478px;
+            background-color: rgb(150, 140, 140);
+            position: relative;
+            top: 20vh;
+            left: 30vw;
+        }
+         
+
+.ans{
+    height: 5vh;
+    display: flex;
+    position: relative;
+    justify-content:space-around;
+    width: 95%;
+    background-color:  rgb(150, 140, 140);
+    border-radius: 5px 5px 0px 0px ;
+    padding-left:0% ;
+    padding-top: 20px;
+}
+.row{
+    height: 10vh;
+    width: 33.3vw;
+    display: flex;
+   
+    justify-content: space-around;
+    align-items: center;
+    
+    position: relative;
+    margin-top: 0%;
+    margin-left: 0%;
+    padding-top: 10px;
+
+}
+
+
+
+.btn1{
+    position: relative;  
+      width: 9vw;
+    background-color: azure;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.btn{
+    position: relative;  
+      width: 5vw;
+    background-color: azure;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.ans> ::placeholder{
+    text-align: right;
+    color: rgb(79, 74, 74);
+}
+
+    </style>
+</head>
+<body>
+    <div class="layout">
+ <table>
+   <tr>
+    <th colspan="4" class="ans">
+        <input   placeholder="Enter the Number"   type="text" style="width: 95%; height: 100%; text-align: right; position: relative; margin-left: 25px;  ">
+    </th>
+   </tr>
+   <tr class="row">
+    <td class="btn"><p>1</p></td>
+    <td class="btn"><p>2</p></td>
+    <td class="btn"><p>3</p></td>
+    <td class="btn"><p>AC</p></td>
+   </tr>
+
+   <tr class="row">
+    <td  class="btn"><p >4</p></td>
+    <td class="btn"><p>5</p></td>
+    <td class="btn"><p>6</p></td>
+    <td class="btn"><p>+</p></td>
+   </tr>
+    <tr class="row">
+     <td class="btn"><p>7</p></td>
+     <td class="btn"><p>8</p></td>
+     <td class="btn"><p>9</p></td>
+     <td class="btn"><p>-</p></td>
+    </tr>
+    <tr class="row">
+     <td class="btn"><p>.</p></td>
+     <td class="btn"><p>0</p></td>
+     <td class="btn"><p>/</p></td>
+     <td class="btn"><p>*</p></td>
+    </tr>
+    <tr class="row" >
+      <td class="btn1" colspan="2"  ><p>DEL</p></td>
+      <td class="btn1" colspan="1"><p>=</p></td>
+      
+    </tr>
+ </table>
+        
+    </div>
+
+
+
+</body>
+</html>
